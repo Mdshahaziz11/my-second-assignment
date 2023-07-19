@@ -238,3 +238,28 @@ padding-bottom: 50px;
     gap: 12.5rem;
     padding-bottom: 30px;
 }
+
+/* responsive media quarise*/
+/* mobile device  */
+@media screen and (max-width: 576) {
+    header{
+        padding: 20px;
+    }
+    .nav-title{
+   flex-direction: column;
+    }
+
+.footer-img{
+    flex-direction: column;
+    
+}
+.title{
+    flex-direction: column;
+}
+.foot{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+}
+/* tablet or medium decices*/
+
